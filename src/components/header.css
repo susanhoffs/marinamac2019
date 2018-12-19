@@ -1,0 +1,46 @@
+#site-header {
+    width: 100%;
+    padding: 1rem;
+    background: green;
+}
+
+#site-header .logo {
+    width: 60%;
+    max-width: 320px;
+    margin: 1rem auto;
+    display: block;
+}
+
+#site-header .logo img {
+    display: block;
+    width: 100%;
+}
+
+#site-header .navegacao-principal {
+    margin: 0;
+    padding: 0;
+}
+
+#site-header .navegacao-principal li {
+    display: block;
+}
+
+#site-header .navegacao-principal a {
+    font-size: 1.750em;
+}
+
+@media only screen and (min-width: 40em) {
+    #site-header {
+        background: red;
+        width: 20%;
+        max-width: 315px;
+    }
+    #site-header .logo {
+        margin: 0;
+        width: 100%;
+    }
+
+    #site-header .navegacao-principal {
+        
+    }
+}

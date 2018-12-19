@@ -8,6 +8,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Kanit:800');
+
  html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -444,6 +446,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  body {
+    font-size: 16px;
+  }
+
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+
+   a {
+     font-family: 'Kanit', sans-serif;
+     color: #000;
+     display: block;
+     padding: 0.5rem;
+     text-decoration-style: dashed;
+   }
+   a:hover {
+    background-color: yellow;
+  }
+
+#principal {
+     
+   }
+
+   .navegacao-principal {
+      list-style-type: none;
+  }
+
+  .navegacao-principal li {
+      list-style-type: none;
+      display: block;
+  }
+
+  @media only screen and (min-width: 40em) {
+    body {
+      background-image: url("http://marinamac.net/www/2019-images/home-background.png");
+      background-position: right top;
+    }
+  }
+
+
 
 
 
@@ -632,3 +677,4 @@ textarea {
         page-break-after: avoid;
     }
 }
+
